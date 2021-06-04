@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+{
+    box-sizing: borde-box;
+}
+    html, body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background-color: var(--background-color);
+    }
+   
+    :root{
+        --background-color: #eaeaea;
+        --primary-color:#EA1d25;
+        --secundary-color: #fff;
+        --text-color: #4f5050;
+        --positive-color: #33d390;
+        --negative-color: #da5420;
+        --name-acao: #dfd223;
+        --positive: rgb(16, 63, 2);
+    }
+
+    
